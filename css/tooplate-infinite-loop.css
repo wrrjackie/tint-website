@@ -146,7 +146,7 @@ blockquote {
 
 #infinite {
 	background-color: #222;
-  background-image: url(../img/infinite-loop-01.jpg);
+  background-image: url(../img/tint-garage.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -265,8 +265,8 @@ blockquote {
 	padding: 20px 0 30px 0;
 }
 
-/* Testimonials */
-#testimonials {
+/* products */
+#products {
   color: white;
   background-image: url(../img/infinite-loop-02.jpg);
   background-size: cover;
@@ -276,12 +276,12 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-  #testimonials {
+  #products {
     background-image: url(../img/infinite-loop-02-mobile.jpg);
   }
 }
 
-.tm-testimonials-content {
+.tm-products-content {
   position: relative;
   z-index: 100;
 }
@@ -298,7 +298,7 @@ blockquote {
   z-index: 0;
 }
 
-.tm-testimonials-carousel {
+.tm-products-carousel {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -352,14 +352,14 @@ blockquote {
   color: #3ba0dd;
 }
 
-.tm-testimonials-carousel .slick-dots li button:before {
+.tm-products-carousel .slick-dots li button:before {
   color: white;
   opacity: 0.5;
 }
 
-.tm-testimonials-carousel .slick-dots li button:hover:before,
-.tm-testimonials-carousel .slick-dots li button:focus:before,
-.tm-testimonials-carousel .slick-dots li.slick-active button:before {
+.tm-products-carousel .slick-dots li button:hover:before,
+.tm-products-carousel .slick-dots li button:focus:before,
+.tm-products-carousel .slick-dots li.slick-active button:before {
   color: white;
   opacity: 1;
 }
@@ -514,7 +514,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  /*background-image: url(../img/garage.jpg);*/
+  background-image: url(../img/tint-wipe.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
