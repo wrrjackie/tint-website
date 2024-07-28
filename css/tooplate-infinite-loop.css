@@ -146,7 +146,7 @@ blockquote {
 
 #infinite {
 	background-color: #222;
-  background-image: url(../img/tint-garage.jpg);
+  background-image: url(../img/background1.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -267,8 +267,8 @@ blockquote {
 
 /* products */
 #products {
-  color: white;
-  background-image: url(../img/tint-wipe.jpg);
+  color: black;
+  /*background-image: url(../img/garage1.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -277,7 +277,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #products {
-    background-image: url(../img/tint-wipe.jpg);
+    /*background-image: url(../img/garage1.jpg); */
   }
 }
 
