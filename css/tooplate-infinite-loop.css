@@ -268,7 +268,7 @@ blockquote {
 /* products */
 #products {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/tint-wipe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -277,7 +277,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #products {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    background-image: url(../img/tint-wipe.jpg);
   }
 }
 
